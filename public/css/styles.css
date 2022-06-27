@@ -8,7 +8,6 @@
     --Verde: #39b54a;
     }
 
-
 *{
     box-sizing: border-box;
 }
@@ -41,7 +40,7 @@ body{
     flex-wrap: wrap;
 }
 
-.topnav input{
+.search-bar input{
     width: 100%;
     background-color:white;
     border: none;
@@ -86,7 +85,6 @@ body{
     font-size: 17px;
 }
 
-
 /* <--------------* MAIN/PRODUCTOS*-------------> */
 main{
     background-color: var(--Gris-claro);
@@ -119,7 +117,6 @@ h3{
     border: 1px solid #ebebeb;
     padding: 15px;
     background-color: white
-   
 }
 
 .preciodescuento{
@@ -202,22 +199,28 @@ footer{
 .fa-credit-card{
     color: #1259c3;
     transition: color 350ms;
+    margin-bottom: 10px;
 }
 .fa-credit-card:hover{
     color: var(--Amarillo);
+    margin-bottom: 10px;
 }
 .fa-gift{
     color: #1259c3;
+    margin-bottom: 10px;
 }
 .fa-gift:hover{
     color: var(--Amarillo);
+    margin-bottom: 10px;
 }
 
 .fa-user-shield{
     color: #1259c3;
+    margin-bottom: 10px;
 }
 .fa-user-shield:hover{
     color: var(--Amarillo);
+    margin-bottom: 10px;
 }
 
 
@@ -230,8 +233,11 @@ h1{
 .form-registro{
     padding: 20px 15px;
     margin: auto;
+    margin-top: 40px;
+    margin-bottom: 80px;
     text-align: center;
     background-color: rgba(0,0,0,0.1);
+    text-align: center;
 }
 
 .control{
@@ -242,7 +248,6 @@ h1{
 .control label{
     margin-bottom: 5px;
     font-style: italic;
-    
     width: 80%;
 }
 .boton-enviar{
@@ -270,7 +275,6 @@ h1{
     margin-bottom: 80px;
     text-align: center;
     background-color:rgba(0,0,0,0.1);
-   
 }
 
 .login{
@@ -307,7 +311,7 @@ h1{
 
 /* <--------------* media queries*-------------> */
 
-@media (min-width: 340px){
+@media (min-width: 361px){
     /* para tablet */.descripcion{
         display: block;
     }
@@ -332,7 +336,7 @@ h1{
 }
  
 
-@media (min-width: 600px){ 
+@media (min-width: 769px){ 
     /* para desktop */
 
     .produc{
@@ -344,7 +348,7 @@ h1{
         justify-content: space-between; /* para espaciar elementos entre si */
         
     }
-    .topnav{
+    .search-bar{
         width: 25%;
         margin: auto;
         text-align: center;
@@ -372,7 +376,6 @@ h1{
     .navbar li{
         margin: 0 7px;
     }
-   
 
     .foot{
         display: flex;
